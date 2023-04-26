@@ -6,10 +6,71 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles.css">
+  <script src="https://kit.fontawesome.com/da94a75f9d.js" crossorigin="anonymous"></script>
+  <link
+    href="data:image/x-icon;base64,AAABAAEAEBAQAAEABAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAenp6AP///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAIAAAAAIiAAIiAAAAAgIAAgIgAAAiIiIiIiAAAAIgAAAAAAAAAgAAAAAAAAACIiIiIgAAACIAIgACIAAAIREiEREgAAAiIiIiICAAAhERIhERIAACAAAiAAIiACIiIiIiIiIAIgAAAAAAACIgAAAAAAAAIiAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+    rel="icon" type="image/x-icon" />
   <title>Shopping List</title>
 </head>
 
 <body>
+  <div class="add-screen">
+    <header>
+      <section class="header-main">
+        <h1>Lista de la compra</h1>
+        <nav><a href="#" class="nav-main">Principal</a> <a href="#" class="nav-list">Lista</a> <a href="#"
+            class="nav-about">Acerca de</a></nav>
+      </section>
+      <section class="header-sub">
+        <i class="fa-solid fa-circle-minus fa-shake"></i>
+        <span>2/3 Comprados</span>
+      </section>
+    </header>
+
+    <main class="add-screen-content">
+      <h2>Añadir artículo</h2>
+      <form action="">
+        <label for="name">Nombre</label>
+        <input type="text" id="name">
+        <label for="price">Precio</label>
+        <input type="text" id="price"><span>€</span>
+        <input type="submit" class="button" value="Añadir">
+      </form>
+    </main>
+  </div>
+  <div class="list-screen">
+    <header>
+      <section class="header-main">
+        <h1>Lista de la compra</h1>
+        <nav><a href="#" class="nav-main">Principal</a> <a href="#" class="nav-list">Lista</a> <a href="#"
+            class="nav-about">Acerca de</a></nav>
+      </section>
+      <section class="header-sub">
+        <i class="fa-solid fa-circle-plus fa-shake"></i>
+        <span>2/3 Comprados</span>
+      </section>
+    </header>
+
+    <main class="add-screen-content">
+      <div class="calculations">
+        <section class="checkboxes">
+          <label><input type="checkbox" class="ingredient-checkbox"><span class="strikethrough"> Pan</span></label>
+          <label><input type="checkbox" class="ingredient-checkbox"><span> Azúcar</span></label>
+          <label><input type="checkbox" class="ingredient-checkbox"><span class="strikethrough"> Leche</span></label>
+          <label><input type="checkbox" class="ingredient-checkbox"><span> Pan</span></label>
+        </section>
+        <section class="results">
+          <span class="result strikethrough">0.75€ ✖</span>
+          <span class="result"> ✖</span>
+          <span class="result strikethrough">1.20€ ✖</span>
+          <span class="result">4.35€ ✖</span>
+        </section>
+      </div>
+      <hr>
+      <span class="final-result">6.3€</span>
+
+    </main>
+  </div>
 
 </body>
 

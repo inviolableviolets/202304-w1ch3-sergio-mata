@@ -1,0 +1,115 @@
+* {
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.add-screen {
+  border: 1px solid black;
+  max-width: 100vw;
+  height: 100vh;
+}
+
+nav {
+  font-size: 0.8rem;
+}
+
+.header-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #279989;
+  color: white;
+  padding: 0.5rem;
+  height: 10vh;
+}
+
+.header-sub {
+  display: flex;
+  background-color: #44a080;
+  color: white;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem;
+  height: 10vh;
+}
+
+.add-screen-content {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffc845;
+  height: 80vh;
+  padding: 0.5rem;
+}
+
+label {
+  display: block;
+}
+
+.button {
+  display: block;
+  background-color: #44a080;
+  color: white;
+  border: none;
+  margin-top: 0.5rem;
+  padding: 0.5rem;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 1.5rem;
+}
+
+h2 {
+  font-size: 1.2rem;
+}
+
+.list-screen .nav-list {
+  color: white;
+  font-weight: bolder;
+}
+
+.calculations {
+  display: flex;
+  flex-direction: space-between;
+}
+
+.strikethrough {
+  text-decoration: line-through;
+}
+
+.results {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 50%;
+}
+
+.checkboxes {
+  width: 50%;
+}
+
+.final-result {
+  display: flex;
+  font-size: 1.5rem;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+hr {
+  border: 1px solid black;
+  width: 100%;
+}
+
+.fa-solid {
+  transform: scale(2);
+}
